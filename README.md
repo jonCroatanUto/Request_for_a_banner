@@ -2,9 +2,6 @@
 
 this is php server that request HTML code to an external API
 
-# image-manager
-
-This app it allows to manage your image!! I hope you all enjoyed!!!
 
 ## 🚀 to start
 
