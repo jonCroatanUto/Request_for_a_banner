@@ -18,7 +18,7 @@ git clone https://github.com/jonCroatanUto/Request_for_a_banner.git
 ```
 
 - now click Start on your `MAMP` interface.
-- You can write in your browser the ``http://localhost/Request_for_a_banner` to see the result
+- You can write in your browser the `localhost/Request_for_a_banner to see the result
 
 <pre>  
 ├───.github             <i>// Github actions config files </i>
