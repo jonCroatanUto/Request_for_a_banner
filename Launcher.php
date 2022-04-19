@@ -65,7 +65,7 @@ class Launcher {
         $start = microtime(true);
         //TappexClass recive ApiKey and params object to do the request to the api
         $res[]= new TappxClass($this->m_app_key, $this->m_request_content);
-
+        
         //method calling it will say how the request had gone 
         //it will back a:
           //___False if is a bad request
@@ -74,12 +74,12 @@ class Launcher {
         //this response it will be passed as a paramater to OutputClass
         //outPut class will read the response and generate a Encoded Json depending on it.
         $response=$res[0]->calling;
-        $prepareOutput=new OutputClass( $response);
+        $prepareOutput=new OutputClass($response);
         $prepareOutput->sendOutput;
         
      
        //you can creat al the request you want just changing m_request_content and calling TappxClass
-        //$res[] = new TappxClass($this->m_app_key, $this->m_request_content_network2);
+        //$res[] = new TappxClass($this->m_app_key, $this->m_request_content_network2)
         //$res[] = new TappxClass($this->m_app_key, $this->m_request_content_network3);
         //$res[] = new TappxClass($this->m_app_key, $this->m_request_content_network4);
 
