@@ -28,7 +28,7 @@ class OutputClass{
  
             fwrite($foundFile,$responseOutputEncoded);
             //this is the single case where the response will be printed the secreen, it Will back the banner;
-            var_dump($response);
+            //var_dump($response);
         }
 
 }
